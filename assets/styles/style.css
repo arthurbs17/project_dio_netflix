@@ -1,0 +1,49 @@
+/* Variáveis */
+:root {
+  --vermelho: #e50914;
+  --preto: #141414;
+  --cinza: #aaa;
+  --branco: #fff;
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+/* General configurations */
+body {
+  background-color: var(--preto);
+  font-family: "Roboto", sans-serif;
+}
+
+/* HEADER */
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+header .logo {
+  color: var(--vermelho);
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+header nav a {
+  text-decoration: none;
+  color: var(--cinza);
+  margin-right: 10px;
+}
+
+header nav a:hover {
+  color: var(--branco);
+}
