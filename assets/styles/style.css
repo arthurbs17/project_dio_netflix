@@ -47,3 +47,33 @@ header nav a {
 header nav a:hover {
   color: var(--branco);
 }
+
+/* MAIN */
+/* BOX FILME PRINCIPAL */
+
+.filme-principal {
+  font-size: 16px;
+  color: #fff;
+  padding: 10px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+    url("../img/mWDdRXTivGE7aaY2vo1Ie0PfCX5.jpg");
+  background-size: 100% 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.filme-principal h3 {
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.filme-principal .container {
+  width: 100%;
+}
+
+.filme-principal .descricao {
+  margin-bottom: 40px;
+}
